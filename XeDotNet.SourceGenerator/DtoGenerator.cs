@@ -7,7 +7,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace XeDotNet.SourceGeneratorDto
+namespace XeDotNet.SourceGenerator
 {
     [Generator]
     public class DtoGenerator : ISourceGenerator

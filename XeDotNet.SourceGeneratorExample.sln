@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XeDotNet.SourceGeneratorExample", "XeDotNet.SourceGeneratorExample\XeDotNet.SourceGeneratorExample.csproj", "{1341A9E6-CF86-4D00-ABD4-9B1723EC7BC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XeDotNet.SourceGeneratorExample", "XeDotNet.SourceGeneratorExample\XeDotNet.SourceGeneratorExample.csproj", "{1341A9E6-CF86-4D00-ABD4-9B1723EC7BC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XeDotNet.SourceGeneratorDto", "XeDotNet.SourceGeneratorDto\XeDotNet.SourceGeneratorDto.csproj", "{32E6BD65-AB14-4F83-BBAF-7DEB564C511F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XeDotNet.SourceGenerator", "XeDotNet.SourceGenerator\XeDotNet.SourceGenerator.csproj", "{32E6BD65-AB14-4F83-BBAF-7DEB564C511F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

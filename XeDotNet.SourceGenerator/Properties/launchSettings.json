@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "XeDotNet.SourceGenerator": {
+      "commandName": "DebugRoslynComponent",
+      "targetProject": "..\\XeDotNet.SourceGeneratorExample\\XeDotNet.SourceGeneratorExample.csproj"
+    }
+  }
+}
