@@ -10,10 +10,4 @@ namespace XeDotNet.SourceGeneratorExample.Domain
     {
         int Id { get; set; }
     }
-
-    [System.AttributeUsage(AttributeTargets.Property, Inherited = false, AllowMultiple = true)]
-    sealed class NoDto : Attribute
-    {
-       
-    }
 }
