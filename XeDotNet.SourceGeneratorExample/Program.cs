@@ -3,8 +3,12 @@
 
 Console.WriteLine("XeDotNet - Source Generator Examples");
 
-var p =  new Person() {  Id = 1 , FirstName = "Marco", LastName = "Bortolin"};
-var dto = p.ToDto();
+var person =  new Person() {  Id = 1 , FirstName = "Mario", LastName = "Rossi", Age=43};
+var dtoPerson = person.ToDto();
 
-Console.WriteLine($"{dto.Id}: {dto.FirstName} {dto.LastName}");
+Console.WriteLine($"{dtoPerson.Id}: {dtoPerson.FirstName} {dtoPerson.LastName}");
 
+var car = new Car() { Id = 1, Model = "Wagon", Motor = "Benz", Gears = 5 };
+var dtoCar = car.ToDto();
+
+Console.WriteLine($"{dtoCar.Id}: {dtoCar.Model} - {dtoCar.Motor}");
